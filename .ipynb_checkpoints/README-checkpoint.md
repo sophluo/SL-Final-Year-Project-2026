@@ -3,7 +3,7 @@ This repository contains Jupyter notebooks with analysis for the final year proj
 **Background:**
 The NASA Atmospheric Tomography (ATom) missions were a global-scale airborne campaign that took place between 2016 and 2018, targeting remote areas of the troposphere. It provided a range of in-situ measurements of key atmospheric species. This project focuses on the ATom-1 mission, which took place between June and August 2016. 
 
-The gas-phase hydroxyl ($OH$) radical is of particular importance and research interest due to its ability to reacts with (hence removing) pollutants such as $CO$ from the troposphere. Due to its short lifetime (~1 s), a steady-state approximation can be employed in which its source and sink (chemical production and loss) rates can be used to approximate $[OH]$:
+The gas-phase hydroxyl ($OH$) radical is of particular importance due to its ability to reacts with (hence removing) pollutants such as $CO$ from the troposphere. Due to its short lifetime (~1 s), a steady-state approximation can be employed in which its source and sink (chemical production and loss) rates can be used to approximate $[OH]$:
 
 $[OH]_{ss}=\frac{2k_1[O(^1D)][H_2O]}{k_2[CO]+k_3[CH_4]}$
 
@@ -18,4 +18,4 @@ There are four notebooks:
 There is also a .csv `MDS_atom1_2016_summer_with_no_no2_oh_ho2_full_js.csv`, which contains data for the construction of the box model.
 
 **How to run the code**
-Please run all cells of the notebook in order to view the results. The first part of the box model notebooks is performing the appropriate calculations using rate constants and concentrations of various atmospheric species to find a steady-state approximation of $[OH]$; this is then followed by the plots used in the report, that visualise the results and compare with the ATom-1 measurement of $[OH]$.
+Please run all cells of the notebook in order to view the results. The first part of the box model notebooks is performing the appropriate calculations using rate constants and concentrations of various atmospheric species to find a steady-state approximation of $[OH]$; this is then followed by plots to visualise the results and compare with the ATom-1 measurement of $[OH]$.
