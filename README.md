@@ -16,7 +16,7 @@ There are four notebooks:
 - `Machine learning`: code for the machine learning regression models. This corresponds to Section 10.1 in the report.
 - `Machine learning - random split`: code that does a random train/test split as well as grid search for optimum hyperparameters. This corresponds to Section 10.2 in the report.
 
-There are three `.csv` files:
+There are two `.csv` files:
 - `MDS_atom1_2016_summer_with_no_no2_oh_ho2_full_js.csv` is the dataset containing measurements for the construction of the box model.
 - `box_model_output.csv` contains pre-processed data from the file above as well as the outputs ($[OH]$) for the box model with a minimal set of input. This file is used for the machine learning approaches.
 
@@ -24,4 +24,4 @@ There are three `.csv` files:
 
 Please run all cells to run the box model calculations and view the results. The first part of the box model notebooks is performing the appropriate calculations using rate constants and concentrations of various atmospheric species to find a steady-state approximation of $[OH]$; this is then followed by the plots used in the report, that visualise the results and compare with the ATom-1 measurement of $[OH]$.
 
-For the machine learning notebooks, the box model output is read in as the pre-processed `.csv` file to save re-calculating $[OH]$ multiple times
+For the machine learning notebooks, the box model output is read in as the pre-processed `.csv` file to save re-calculating $[OH]$ multiple times.
