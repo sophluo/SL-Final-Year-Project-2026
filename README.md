@@ -24,4 +24,8 @@ There are two `.csv` files:
 
 Please run all cells to run the box model calculations and view the results. The first part of the box model notebooks is performing the appropriate calculations using rate constants and concentrations of various atmospheric species to find a steady-state approximation of $[OH]$; this is then followed by the plots used in the report, that visualise the results and compare with the ATom-1 measurement of $[OH]$.
 
+<<<<<<< HEAD
 For the machine learning notebooks, the box model output is read in as the pre-processed `.csv` file to save re-calculating $[OH]$ multiple times.
+=======
+For the machine learning notebooks, the box model output is read in as the pre-processed `.csv` file to save re-calculating $[OH]$ multiple times
+>>>>>>> 9977db5c3e87895d707eaf3429ed816391f292ce
