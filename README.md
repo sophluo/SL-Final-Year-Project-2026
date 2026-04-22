@@ -13,8 +13,8 @@ This project aims to use the data from the ATom missions to model $[OH]$ and com
 There are four notebooks:
 - `1. ATom-1 updated box model - minimal.ipynb`: code for the box model with a minimal set of inputs. This corresponds to Section 8.1 in the report.
 - `2. ATom-1 updated box model - with HOx and NOx reactions.ipynb`: extension of box model to include HOx and NOx chemistry. This corresponds to Section 9.3 in the report.
-- `3. Machine learning - split by date`: code for the machine learning regression models, with train/test split by date. This corresponds to Section 10.1 in the report.
-- `4. Machine learning - random split`: code that does a random train/test split as well as grid search for optimum hyperparameters. This corresponds to Section 10.2 in the report.
+- `3. Machine learning - split by date.ipynb`: code for the machine learning regression models, with train/test split by date. This corresponds to Section 10.1 in the report.
+- `4. Machine learning - random split.ipynb`: code that does a random train/test split as well as grid search for optimum hyperparameters. This corresponds to Section 10.2 in the report.
 
 There are two `.csv` files:
 - `MDS_atom1_2016_summer_with_no_no2_oh_ho2_full_js.csv` is the dataset containing measurements for the construction of the box model.
